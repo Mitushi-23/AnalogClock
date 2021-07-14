@@ -1,0 +1,70 @@
+#clock-container{
+   position: relative;
+width: 40vw;
+    height: 40vw;
+    background: url(https://tse4.mm.bing.net/th?id=OIP.rtP-vW_wT_RNiGEA-U7BNwHaHa&pid=Api&P=0&w=300&h=300) no-repeat;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    background-size:100%;
+}
+
+#hour, #minute, #second, #center{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+
+
+
+
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 27%;
+    left: 49.84%;
+    opacity: 0.8;  
+    /* display: none; */
+}
+#minute{
+    /* width: 1.6%;
+    height: 30%;
+    top: 22%;
+    left: 49.9%;
+    opacity: 0.8;   */
+    width: 1%;
+    height: 33.9%;
+    top: 18%;
+    left: 50.2%;
+    opacity: 0.8;
+}
+#second{
+    width: 0.6%;
+    height: 40%;
+    top: 12%;
+    left: 50.4%;
+    opacity: 0.8; 
+    background-color: red;
+    /* display: none; */
+}
+#center{
+    position: absolute;
+    height: 3%;
+    width: 3%;
+    left: 49.5%;
+    top: 50.5%;
+    border-radius:50%;
+    background-color: black;
+}
+p{
+    text-align: center;
+   padding-top: 23%;
+   font-size: 20px;
+   color:black;
+   font-style: oblique;
+}
+
+.number{
+    display: none;
+}
